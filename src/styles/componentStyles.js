@@ -16,7 +16,7 @@ export const AppHeaderStyles = {
     navItemStyles: {
         display: { lg: 'inline-flex' },
         '& .nav-item': {
-            color: themeColors.secondary, textTransform: 'capitalize', px: '10px',
+            color: themeColors.secondary, textTransform: 'capitalize', px: '6px',py:'8px',fontSize:'16px',
         },
         '& .nav-item-button': {
             color: themeColors.white, textTransform: 'capitalize', backgroundColor: themeColors.secondary,
@@ -27,7 +27,7 @@ export const AppHeaderStyles = {
         },
         '& .navigation-item': {
             padding: '8px 6px', textDecoration: 'none',
-            display: 'inline-flex',
+            display: 'inline-flex',fontSize:'16px',
             justifyContent: 'center',
         },
         '& .number-link': {

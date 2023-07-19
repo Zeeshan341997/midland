@@ -47,4 +47,6 @@ export const AppImages = {
     freshFlush2: require('../assets/images/fresh-flush2.jpg'),
     portableMainsConnect: require('../assets/images/portable-mains-connect.jpg'),
     wheelChairToilet: require('../assets/images/wheelchair-toilet.jpg'),
+    EmptyingServicing: require('../assets/images/emptyingServicing.png'),
+    User: require('../assets/images/user.png'),
 }

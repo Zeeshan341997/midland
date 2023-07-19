@@ -69,6 +69,10 @@ export const documentCertificates = [
     { id: 5, name: 'Application Form', type: 'email' },
 ]
 
+export const Testimonials = [
+    { id: 1, name: 'James Anderson', comment: "I recently used Midland Toilet Hire's services for an outdoor event in West Midlands, and I was extremely impressed! The toilets were clean, well-maintained, and easily accessible. The staff at Midland Toilet Hire was friendly and professional throughout the entire process. I highly recommend their services to anyone in need of portable toilets!"}
+]
+
 export const areas = ['West Midlands', 'Staffordshire', 'Warwickshire', 'Worcestershire']
 
 export const galleryData = [AppImages.gallery1, AppImages.gallery2, AppImages.gallery3, AppImages.gallery4, AppImages.gallery5, AppImages.gallery6, AppImages.gallery7, AppImages.gallery8]

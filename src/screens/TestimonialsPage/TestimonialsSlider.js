@@ -49,11 +49,13 @@ const TestimonialsSlider = () => {
                         <Slider {...settings}>
                             {Array.from({ length: 4 })?.map((_, i) => {
                                 return (
+                                    
                                     <Grid key={i} item md={8} className="slide">
-                                        <img src={AppImages.customer} alt="customer" height={'auto'} width={'auto'} />
-                                        <Typography className="poppins-semibold">"We have worked with Midland Toilet Hire for over ten years. They are a committed and dedicated team who provide an excellent service. When our clients are satisfied, we are satisfied. Thank you Midland Toilet Hire Here's to the next successful decade".</Typography>
-                                        <Typography component={'h2'} className="poppins-bold secondary-text">Glyn O Evans Ltd</Typography>
+                                        <img src={AppImages.User} alt="customer" height={'auto'} width={'auto'} />
+                                        <Typography className="poppins-semibold">I recently used Midland Toilet Hire's services for an outdoor event in West Midlands, and I was extremely impressed! The toilets were clean, well-maintained, and easily accessible. The staff at Midland Toilet Hire was friendly and professional throughout the entire process. I highly recommend their services to anyone in need of portable toilets!</Typography>
+                                        <Typography component={'h2'} className="poppins-bold secondary-text">James Anderson</Typography>
                                     </Grid>
+
                                 )
                             })}
                         </Slider>

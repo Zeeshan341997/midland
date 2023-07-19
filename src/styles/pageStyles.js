@@ -166,7 +166,7 @@ export const TestimonialsPageStyles = {
     container: { py: '100px' },
     slider: {
         pt: 10,
-        '& img': { height: 'auto', width: 'auto', maxWidth: '100%', margin: '0 auto' },
+        '& img': { height: '80px', width: '80px', maxWidth: '100%', margin: '0 auto',borderRadius:'100%' },
         '& p': { fontSize: 16 },
         '& h2': { mt: 5, fontSize: 30, lineHeight: '48px' },
     }
@@ -184,6 +184,8 @@ export const ConstructionServicesStyle = {
         '& img':{width:'50%',height:'100%',},
     },
     '& h2': { fontSize: 68, lineHeight: '43px',textAlign:'left', pt: 4,'& a':{textDecoration: 'none'}, },
+    '& .emptyingServeImg':{width:'550px','& img':{width:'100%',},},
+    '& li':{'&::marker':{color: themeColors.primary},},
     },
 }
 

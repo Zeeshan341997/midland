@@ -5,6 +5,7 @@ import { MoveToTop } from '../../components/MovingArrows';
 import { scrollTop } from '../../config/helperFunction';
 import EmptyingServicing from './EmptyingServicing';
 import ContactPage from '../ContactPage';
+import TestimonialsPage from '../TestimonialsPage';
 
 
 const ConstructionServicesPage = () => {
@@ -15,6 +16,7 @@ const ConstructionServicesPage = () => {
             <Container maxWidth={'lg'}>
                 <Box sx={[BoxStyles]}>
                     <EmptyingServicing />
+                    <TestimonialsPage />
                     <ContactPage />
                     <MoveToTop onClick={() => scrollTop(scrollableRef)} />
                 </Box>
