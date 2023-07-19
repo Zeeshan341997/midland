@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: Poppins;
+    src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
+    src: url('../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url('../assets/fonts/CoolveticaRg/FontsFree-Net-coolvetica-rg.ttf');
+    src: url('../assets/fonts/CoolveticaRg/FontsFree-Net-coolvetica-rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: MyridPro;
+    src: url('../assets/fonts/MyridPro/MYRIADPRO-REGULAR.OTF');
+    src: url('../assets/fonts/MyridPro/MYRIADPRO-REGULAR.OTF') format('opentype');
+}
+
+:root {
+    --primary: #00B8FF;
+    --secondary: #2E3192;
+    --capitalize: uppercase;
+    --uppercase: uppercase;
+    --white: #fff;
+    --black: #000;
+    --whiteSmoke: #efefef;
+    --inputColor: #515151;
+    --silver: #848487;
+    --silver2: #c9c9c9;
+    --gray: #bbbbbb;
+    --darkGray: #A5A5A5;
+    --gray2: #8E8E8E;
+    --gray3: #333333;
+    --cadet: #1B1464;
+}
+
+.poppins-regular {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.poppins-medium,
+.poppins-medium input {
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.poppins-semibold {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.poppins-bold {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.coolvetica-regular {
+    font-family: Coolvetica;
+    font-weight: 400;
+}
+
+.myridPro-regular {
+    font-family: MyridPro;
+    font-weight: 400;
+}
+
+body {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+input {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.relative {
+    position: relative;
+}
+
+.primary-text {
+    color: var(--primary);
+}
+
+.secondary-text {
+    color: var(--secondary);
+}
+
+.gray-text {
+    color: var(--gray)
+}
+
+.darkGray-text {
+    color: var(--darkGray)
+}
+
+.white-text {
+    color: var(--white)
+}
+
+.uppercase {
+    text-transform: var(--uppercase);
+}
+
+.capitalize {
+    text-transform: var(--capitalize);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.move-bottom-arrow-wrapper {
+    min-height: 150px;
+}
+
+.move-bottom-arrow-wrapper:hover {
+    cursor: pointer;
+}
+
+.custom-prev-arrow {
+    left: -25px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.custom-next-arrow {
+    right: -25px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.css-2j202g-MuiGrid-root{
+    align-items: center;
+    justify-content: center;
+}
+.css-1xihcip{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    flex-direction: column !important;
+}
+
+
+@media(max-width:425px){
+    .css-1d86r4d-MuiGrid-root .service-list{
+        flex-direction: column;
+        align-items: center !important;
+    }
+    
+}
